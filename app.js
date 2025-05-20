@@ -74,9 +74,53 @@
 // }
 
 // else{console.log('you are less than 18 years');}
- var age = prompt('Enter your age');
-         if (age >= 18) {var id_card = prompt('do you have an id card,enter yes or no');
-                if (id_card === 'yes'){console.log('Welcome! use your right of voting to suitable candidate')}
-                else{console.log('You have no id card, id card is must for voting');}
-         }
-         else{console.log('You can not vote becaues your age is less');}
+//  var age = prompt('Enter your age');
+//          if (age >= 18) {var id_card = prompt('do you have an id card,enter yes or no');
+//                 if (id_card === 'yes'){console.log('Welcome! use your right of voting to suitable candidate')}
+//                 else{console.log('You have no id card, id card is must for voting');}
+//          }
+//          else{console.log('You can not vote becaues your age is less');}
+
+
+
+//          var q1 = prompt("Enter Your Number (To Check If It Is Divisible By 3)");
+
+// if (q1 % 3 == 0) {
+//     console.log("It's Divisible By 3");
+// }
+// else if  (q1 == 0 || q1 < 0){console.log('no ');}
+// else{console.log('No is not divisible by 3')}
+//     var yourName = prompt("Enter Your Name (To Check If You Have The Same Name As Me")
+// var myName = 'Aziz';
+// if (yourName === myName) {
+//     console.log("Hello Same Name Person")
+// }
+
+// else {
+//     console.log("Hello Stranger")
+
+// }
+
+// var array = ['aziz','mubin',98,true, false]
+// console.log(array);
+
+// var name = 'sqlainhaider';
+// console.log(name.length);
+
+// var user  = 'john';
+// var employees = ['ahmed','bilal', '','asad',user]
+// console.log(employees); 
+
+//  var array = ['ahmed', 'laptop','cat','asad','company'];
+//  var length = array.length;
+//  console.log(length); 
+//   var friends = ['ahmed','faraz','asad'];
+//   var userInput = prompt('enter your friend name');
+//   if (userInput === friends[0]||
+//     userInput === friends[1]||
+//     userInput === friends [2]
+//   ){console.log('friends found');}
+//   else{console.log('friend not found');}
+var skills = ['html5','css3','bootstrap'];
+var bioData = ['john', 30, 'Male', 'Abc Company', skills]
+var nd      = prompt ('is skills name array in bio data');
